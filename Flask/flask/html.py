@@ -6,7 +6,8 @@ def welcome():
     return "Welcome to this flask"
 @app.route("/index",methods=['GET'])
 def index():
-    return render
+    return render_template('index.html')
+
 
 if __name__=="__main__":
     app.run(debug=True)
