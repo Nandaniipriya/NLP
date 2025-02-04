@@ -1,6 +1,6 @@
 from flask import Flask,render_template
 app=Flask(__name__)
-#wsgi 
+
 @app.route("/")
 def welcome():
     return "Welcome to this flask"
