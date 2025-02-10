@@ -1,5 +1,5 @@
 from flask import Flask
-
+#WSGI application
 app=Flask(__name__)
 @app.route("/")
 def welcome():
