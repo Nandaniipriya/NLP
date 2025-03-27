@@ -3,7 +3,7 @@ from playwright.async_api import async_playwright
 import json
 
 class StartupIndiaScraper:
-    def __init__(self, base_url="https://www.startupindia.gov.in/content/sih/en/search.html"):
+    def __init__(self, base_url=""):
         self.base_url = base_url
         self.startups = []
 
