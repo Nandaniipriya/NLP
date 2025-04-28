@@ -1,4 +1,5 @@
 ''''
+#PRACTICE QUESTIONS
 Question 1: You are given a dataset containing information about customer transactions, 
 including CustomerID, TransactionDate, and TransactionAmount. 
 Write a Python script to perform the following tasks:
